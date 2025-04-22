@@ -130,8 +130,8 @@
     }
 
    .card {
-      background-color: #384694;
-      color: white;
+      background: linear-gradient(to bottom, #384694, #2f3b85);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
       border-radius: 15px;
       padding: 1rem;
       text-align: center;
@@ -141,10 +141,23 @@
       box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
     }
     .card:hover {
-      background-color: #2ab702;
+      background: #2ab702;
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 16px rgba(42, 183, 2, 0.15);
     }
-  
-    .category-section {
+
+    .card svg {
+      fill: white;
+      opacity: 0.85;
+      transition: transform 0.2s ease;
+    }
+    .card:hover svg {
+      transform: scale(1.1);
+      fill: #2ab702;
+    }
+
+      .category-section {
       display: none;
       padding: 1rem;
     }
