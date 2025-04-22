@@ -9,265 +9,265 @@
   <meta name="theme-color" content="#cd77f2" />
   <title>IWC Bogotá Directory</title>
 
-  <style>
-    /* === CUSTOM FONTS === */
-    @font-face {
-      font-family: 'Glacial Indifference';
-      src: url('fonts/GlacialIndifference-Regular.woff2') format('woff2');
-      font-weight: normal;
-      font-style: normal;
-    }
+ <style>
+  /* === IWC BRAND FONTS === */
+  @font-face {
+    font-family: 'Glacial Indifference';
+    src: url('fonts/GlacialIndifference-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
 
-    @font-face {
-      font-family: 'Spin Cycle OT';
-      src: url('fonts/SpinCycleOT-Regular.woff2') format('woff2');
-      font-weight: normal;
-      font-style: normal;
-    }
+  @font-face {
+    font-family: 'Spin Cycle OT';
+    src: url('fonts/spincycle_ot.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
 
-    body {
-      font-family: 'Glacial Indifference', sans-serif;
-      background-color: #e4e9f2;
-      margin: 0;
-      padding: 0;
-    }
+  body {
+    font-family: 'Glacial Indifference', sans-serif;
+    background-color: #e4e9f2;
+    margin: 0;
+    padding: 0;
+  }
 
-    .spin {
-      font-family: 'Spin Cycle OT', cursive;
-    }
+  .spin {
+    font-family: 'Spin Cycle OT', cursive;
+  }
 
-    .app-wrapper {
-      max-width: 420px;
-      margin: 0 auto;
-      background-color: #ffffff;
-      min-height: 100vh;
-      position: relative;
-    }
+  .app-wrapper {
+    max-width: 420px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    min-height: 100vh;
+    position: relative;
+  }
 
-    header {
-      background: linear-gradient(to right, #f263c0, #cd77f2);
-      color: white;
-      padding: 2rem 1rem 1.5rem;
-      text-align: center;
-      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
-      border-radius: 0 0 20px 20px;
-    }
+  header {
+    background: linear-gradient(to right, #2ab702, #384694);
+    color: white;
+    padding: 2rem 1rem 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 20px 20px;
+  }
 
-    header img {
-      width: 90px;
-      border-radius: 50%;
-      border: 4px solid white;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-      margin-bottom: 0.5rem;
-    }
+  header img {
+    width: 90px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 0.5rem;
+  }
 
-    header h1 {
-      margin: 0.5rem 0 0.25rem;
-      font-size: 1.6rem;
-    }
+  header h1 {
+    margin: 0.5rem 0 0.25rem;
+    font-size: 1.6rem;
+  }
 
-    header p {
-      margin: 0;
-      font-size: 0.95rem;
-      opacity: 0.9;
-    }
+  header p {
+    margin: 0;
+    font-size: 0.95rem;
+    opacity: 0.9;
+  }
 
-    .admin-bar-wrapper {
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      background: #ffffff;
-      display: flex;
-      justify-content: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-      border-bottom: 1px solid #eee;
-    }
+  .admin-bar-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border-bottom: 1px solid #eee;
+  }
 
-    .admin-bar {
-      width: 100%;
-      max-width: 420px;
-      padding: 0.5rem 1rem;
-      display: flex;
-      justify-content: space-between;
-      background: #ffffff;
-    }
+  .admin-bar {
+    width: 100%;
+    max-width: 420px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+  }
 
-    .admin-bar button {
-      flex: 1;
-      margin: 0 0.25rem;
-      border: none;
-      background: #cd77f2;
-      color: white;
-      font-weight: bold;
-      padding: 0.6rem 0.5rem;
-      border-radius: 10px;
-      cursor: pointer;
-      font-size: 0.85rem;
-      white-space: nowrap;
-      transition: background 0.2s ease;
-    }
+  .admin-bar button {
+    flex: 1;
+    margin: 0 0.25rem;
+    border: none;
+    background: #384694;
+    color: white;
+    font-weight: bold;
+    padding: 0.6rem 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    transition: background 0.2s ease;
+  }
 
-    .admin-bar button:hover {
-      background: #b65de0;
-    }
+  .admin-bar button:hover {
+    background: #2ab702;
+  }
 
-    main {
-      padding: 1rem;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-      padding-bottom: 6rem; /* creates space for the fixed bottom bar */
-    }
+  main {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-bottom: 6rem;
+  }
 
-    .card {
-      border-radius: 15px;
-      padding: 1rem;
-      text-align: center;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
-    }
+  .card {
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
 
-    .card:nth-child(1) { background-color: #f263c0; }
-    .card:nth-child(2) { background-color: #cd77f2; }
-    .card:nth-child(3) { background-color: #e4e9f2; color: #333; }
-    .card:nth-child(4) { background-color: #f2cea2; color: #333; }
-    .card:nth-child(5) { background-color: #f2541b; }
-    .card:nth-child(6) { background-color: #f263c0; }
-    .card:nth-child(7) { background-color: #cd77f2; }
-    .card:nth-child(8) { background-color: #e4e9f2; color: #333; }
-    .card:nth-child(9) { background-color: #f2cea2; color: #333; }
-    .card:nth-child(10) { background-color: #f263c0; }
-    .card:nth-child(11) { background-color: #cd77f2; }
-    .card:nth-child(12) { background-color: #e4e9f2; color: #333; }
-    .card:nth-child(13) { background-color: #f2cea2; color: #333; }
-    
-    .category-section {
-      display: none;
-      padding: 1rem;
-    }
+  .card:nth-child(1) { background-color: #384694; }
+  .card:nth-child(2) { background-color: #2ab702; }
+  .card:nth-child(3) { background-color: #e4e9f2; color: #333; }
+  .card:nth-child(4) { background-color: #d9f5c0; color: #333; }
+  .card:nth-child(5) { background-color: #2ab702; }
+  .card:nth-child(6) { background-color: #384694; }
+  .card:nth-child(7) { background-color: #2ab702; }
+  .card:nth-child(8) { background-color: #e4e9f2; color: #333; }
+  .card:nth-child(9) { background-color: #d9f5c0; color: #333; }
+  .card:nth-child(10) { background-color: #384694; }
+  .card:nth-child(11) { background-color: #2ab702; }
+  .card:nth-child(12) { background-color: #e4e9f2; color: #333; }
+  .card:nth-child(13) { background-color: #d9f5c0; color: #333; }
 
-    .category-section.active {
-      display: block;
-    }
+  .category-section {
+    display: none;
+    padding: 1rem;
+  }
 
-    .entry {
-      background: #f9f9f9;
-      margin: 0.5rem 0;
-      padding: 0.75rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
+  .category-section.active {
+    display: block;
+  }
 
-    .entry strong {
-      font-size: 1rem;
-    }
+  .entry {
+    background: #f9f9f9;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
 
-    .back-btn, .top-back-btn {
-      display: block;
-      margin: 1rem auto;
-      padding: 0.5rem 1rem;
-      background-color: #cd77f2;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 1rem;
-      cursor: pointer;
-      text-align: center;
-    }
+  .entry strong {
+    font-size: 1rem;
+  }
 
-    .top-back-btn {
-      margin: 1rem 0;
-      width: fit-content;
-    }
+  .back-btn, .top-back-btn {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #384694;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+  }
 
-    .footer-nav-wrapper {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      z-index: 100;
-      background-color: transparent;
-    }
+  .top-back-btn {
+    margin: 1rem 0;
+    width: fit-content;
+  }
 
-    .footer-nav {
-      background-color: #ffffff;
-      width: 100%;
-      max-width: 420px;
-      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
-      padding: 0.5rem 0.75rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-radius: 15px 15px 0 0;
-      box-sizing: border-box;
-    }
+  .footer-nav-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    background-color: transparent;
+  }
 
-   .footer-nav button {
-  flex: 1;
-  margin: 0 0.25rem;
-  border: none;
-  background: #cd77f2;
-  color: white;
-  font-weight: bold;
-  padding: 0.6rem 0.5rem;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 0.85rem;
-  transition: background 0.2s ease;
-  white-space: nowrap;
-}
+  .footer-nav {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+    box-sizing: border-box;
+  }
 
-.footer-nav button:hover {
-  background: #b65de0;
-}
-    /* Style for the new disclaimer section */ 
+  .footer-nav button {
+    flex: 1;
+    margin: 0 0.25rem;
+    border: none;
+    background: #384694;
+    color: white;
+    font-weight: bold;
+    padding: 0.6rem 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background 0.2s ease;
+    white-space: nowrap;
+  }
+
+  .footer-nav button:hover {
+    background: #2ab702;
+  }
+
   #disclaimer { display: none; padding: 1rem; }
-  #disclaimer.active {
-  display: block;
-}
+  #disclaimer.active { display: block; }
 
-.disclaimer-box {
-  background-color: #fff8f0;
-  border: 1px solid #ffcc99;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  color: #333;
-  font-size: 0.95rem;
-}
+  .disclaimer-box {
+    background-color: #fff8f0;
+    border: 1px solid #ffcc99;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    color: #333;
+    font-size: 0.95rem;
+  }
 
-.disclaimer-box h2 {
-  margin-top: 0;
-  font-size: 1.2rem;
-  color: #b65de0;
-}  
-    .disclaimer-note {
-  font-size: 0.8rem;
-  color: #777;
-  text-align: center;
-  margin-top: 2rem;
-}
-    #suggest,
-#disclaimer {
-  padding-bottom: 6rem;
-}
+  .disclaimer-box h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #384694;
+  }
 
-#suggest .back-btn,
-#disclaimer .back-btn {
-  margin-bottom: 1rem;
-}
+  .disclaimer-note {
+    font-size: 0.8rem;
+    color: #777;
+    text-align: center;
+    margin-top: 2rem;
+  }
 
-  </style>
+  #suggest,
+  #disclaimer {
+    padding-bottom: 6rem;
+  }
+
+  #suggest .back-btn,
+  #disclaimer .back-btn {
+    margin-bottom: 1rem;
+  }
+</style>
+
 </head>
 <body>
   <div class="app-wrapper">
     <header>
-      <img src="LOGO.jpeg" alt="Expat Parents in Bogotá Logo">
-      <h1>Expat Parents in Bogotá</h1>
+      <img src="Bilingual Logo.jpg" alt="IWC Bogotá Logo">
+      <h1>IWC Bogotá</h1>
       <p>Tap a category to explore resources</p>
     </header>
           <p style="font-size: 0.8rem; color: #555; text-align: center; margin-top: 0.5rem;">
@@ -565,23 +565,14 @@
     <h2>💡 Suggest a Listing</h2>
     <p class="disclaimer-note" style="font-size: 0.75rem; color: #666; text-align: center; margin-top: 1.5rem;">* This list is shared by members and does not imply endorsement.</p>
      
-      <iframe 
-        src="https://docs.google.com/forms/d/e/1FAIpQLSf_fX6KJCG0mbsJ7bHpJZQR4G_khKoPhn_FzB3cVs0_k-4MVQ/viewform?embedded=true" 
-        width="100%" 
-        height="1800" 
-        frameborder="0" 
-        marginheight="0" 
-        marginwidth="0" 
-        style="border-radius: 10px; background: #fff;">
-        Loading…
-      </iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqz26RFcOzC2VqPRejBLlfmQ-bTEMZGQLbuak8jHoA8tAZeg/viewform?embedded=true" width="640" height="2464" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       
       <button class="back-btn" onclick="goBack()">← Back</button>
     </div>
 <!-- DISCLAIMER -->
     <div id="disclaimer" class="category-section">
       <h2>⚠️ Disclaimer</h2>
-        <p>This directory is compiled by members of the Expat Parents in Bogotá group and is intended strictly as a community resource. It is not an endorsement of any individual or business listed herein.</p>
+        <p>This directory is compiled by members of the IWC Bogotá group and is intended strictly as a community resource. It is not an endorsement of any individual or business listed herein.</p>
         <p>The administrators and contributors of this directory are all unpaid volunteers. We do not accept responsibility or liability for any outcome resulting from the use of information or services shared in this directory.</p>
         <p>In accordance with Colombian consumer law (Derecho de Petición / PQR), we clarify that this group does not operate as a business or registered organization offering services to the public. No formal commercial services are offered or sold via this platform.</p>
         <p>If you have concerns about the content or functioning of this group, you may contact the admin team through the <strong>👩‍💻 Admin Contact</strong> section. Please remember that we are all volunteers managing this space in our free time.</p>
@@ -594,9 +585,9 @@
       <p>If you have any issues, please contact one of our admins:</p>
       <div class="entry">
         <strong>Admin Team</strong><br>
-        Hanny, Jessica, Karina, Lina, Luis, Maria José, Nico, Pascal, Sandra, and Yammit
+        
       </div>
-      <p style="margin-top:1rem;">📧 <a href="mailto:expatparentsinbogota@gmail.com">expatparentsinbogota@gmail.com</a></p>
+      <p style="margin-top:1rem;">📧 <a href="mailto:resources@iwcbogota.org">resources@iwcbogota.org</a></p>
       <button class="back-btn" onclick="goBack()">← Back</button>
     </div>
   </div> <!-- END .app-wrapper -->
