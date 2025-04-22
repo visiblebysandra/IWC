@@ -1,26 +1,13 @@
-# IWC Bogotá Member Directory
+## 📘 About This Project
 
-Welcome to the private member directory for the **International Women’s Club of Bogotá (IWC)**.
+This is a publicly accessible community directory template. It is intended for informational and non-commercial use only.
 
-This mobile-friendly app was created to help our members easily access trusted local contacts, services, and community resources.
+## 🔐 Data Usage & Privacy
 
----
+- All data shared here is publicly verifiable or provided with permission.
+- Personal/private submissions from group members are **never shared across groups** unless permission is explicitly given.
+- The content is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
-👩‍💻 **Built for IWC Members Only**  
-🔒 **Data is private** – shared within our community  
-📬 **Suggestions or updates?** Use the form inside the app  
-❗ **Not for public use or redistribution**
+## ❗Disclaimer
 
----
-
-### 🚫 Disclaimer
-
-This directory is maintained by volunteers and is not affiliated with any commercial business.  
-All listings are shared by members for the purpose of supporting one another within IWC.
-
-Please note:
-- IWC does **not endorse** or guarantee any provider listed.  
-- This tool is for **informational use only**.  
-- Do not copy, share, or publish directory content outside of the group.
-
-For questions, please contact the IWC Admin Team.
+This app is maintained by volunteers. Listings do not imply endorsement. Please do not redistribute or copy data without permission.
